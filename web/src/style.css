@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f7f9; color: #1c1f23; }
+main { max-width: 960px; margin: 32px auto; padding: 0 16px; }
+button { padding: 8px 16px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; }
+button:disabled { opacity: .6; cursor: default; }
+table { width: 100%; border-collapse: collapse; margin-top: 16px; background: #fff; border-radius: 8px; overflow: hidden; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+th { background: #eef0f3; font-size: 13px; }
+.down { color: #15803d; font-weight: 600; } .up { color: #b91c1c; font-weight: 600; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 12px; background: #e5e7eb; }
+.badge.UNDERCUT { background: #dcfce7; } .badge.AT_MIN { background: #fee2e2; }
+.badge.AT_MAX { background: #fef3c7; } .badge.NO_COMPETITORS { background: #dbeafe; }
+.error { color: #b91c1c; }
